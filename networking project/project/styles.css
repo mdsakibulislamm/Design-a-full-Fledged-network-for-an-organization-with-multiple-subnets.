@@ -1,0 +1,175 @@
+body {
+	background-color: whitesmoke;
+	font-size: 1.1rem;
+}
+
+h1 {
+	font-family: Verdana;
+	font-weight: lighter;
+}
+
+h2 {
+	font-family: Verdana;
+	font-weight: lighter;
+}
+
+p {
+	font-weight: lighter;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #737373;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+a {
+	display: inline-block;
+	color: #333;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 1%;
+	padding-right: 1%;
+	overflow: hidden;
+	background-color: #333;
+}
+
+ul.nav li {
+	float: left;
+	font-size: 1.5rem;
+}
+
+ul.nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.nav li a:hover {
+	background-color: #111;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: #333;
+	font: inherit;
+	margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #333;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+
+
+
+ul {
+	list-style-type: circle;
+}
+
+.header {
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: whitesmoke;
+	color: #333;
+	text-align: center;
+}
+
+.content {
+	float:left;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 15px;
+	background-color: whitesmoke;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	background-color: #333;
+	color: white;
+	text-align: center;
+}
